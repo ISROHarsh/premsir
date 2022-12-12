@@ -1,14 +1,12 @@
-import os
-from setuptools import setup
-
-# allow setup.py to be run from any path
-os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
+from distutils.core import setup
 
 setup(
     name='premsir',
-    version='0.0.1',    
+    version='1.0.0',    
     description='Programming in a nutshell for grade 11.',
     license='MIT License',
+    url = 'https://github.com/ISROHarsh/premsir',
+    download_url = 'https://github.com/ISROHarsh/premsir/archive/refs/tags/v1.0.0.tar.gz', 
     author='Prem Kumar Singh',
     packages=['premsir'],
     classifiers=[
